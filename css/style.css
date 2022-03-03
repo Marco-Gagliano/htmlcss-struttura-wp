@@ -25,68 +25,70 @@ body {
 
 /* HEADER*/
 
-
 .top {
   margin: 10px 0px;
 }
+
 .top-1 {
   height: 200px;
   background-color: #e579e6;
-  margin: 10px 0px;
+  margin: 20px 0px;
+  padding: 10px;
 }
 
 .top-2 {
   height: 200px;
+  padding: 10px;
   background-color: #e1d67a;
-  margin: 5px 0px;
 }
 
 
 /* MAIN */
 
-.center {
-  height: 400px;
+main {
+  height: 450px;
   background-color: #0087ff;
   text-align: justify;
-  margin: 10px 0px;
+  margin-top: 20px;
 }
+
 
 
 .center-1 {
-  background-color: #abcfe7;
-  float: left;
   height: 100px;
-  margin: 10px 10px;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  background-color: #abcfe7;
+}
+
+.center-second {
+  margin: 1% 0%;
 }
 
 .center-2 {
-  background-color: yellow;
+  height: 330px;
+  width: 15%;
   float: left;
-  width: 10%;
-  height: 280px;
-  margin-left: 10px;
-
+  padding: 10px;
+  background-color: #abcfe7;
 }
 
 .center-3 {
-  background-color: green;
+  height: 330px;
+  width: 68%;
   float: left;
-  width: 70%;
-  height: 280px;
-  margin: 0px 10px;
+  padding: 10px;
+  margin: 0% 1%;
+  background-color: #abcfe7;
 }
 
-.center-4 {
-  background-color: yellow;
-  float: left;
-  width: 10%;
-  height: 280px;
-}
 
 /* FOOTER */
 
 .bottom {
-  margin: 20px 0px;
   height: 150px;
+  padding: 10px;
+  margin: 10px 0px;
   background-color: #8801FE;
 }
