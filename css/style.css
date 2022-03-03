@@ -1,5 +1,36 @@
+/* GENERAL PRESET*/
+
+
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  float: left;
+}
+
+body {
+  background-color: white;
+  margin: 0% 10%;
+}
+
+
+/* HEADER*/
+
+.header-1 {
+  height: 200px;
+  background-color: #e579e6;
+}
+
+.header-2 {
+  height: 200px;
+  background-color: #e1d67a;
 }
